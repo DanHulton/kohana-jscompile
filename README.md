@@ -63,3 +63,4 @@ Instead of the tag:
 - [Zeelot](https://github.com/Zeelot/) One of my Kohana heroes, and from whom I shamelessly stole this README format.
 - [Douglas Crockford](http://www.crockford.com/) My big Javascript hero, and author of the original JsMin.
 - [Ryan Grove](http://wonko.com/) Author of the PHP conversion of Crockford's JsMin script that I use in the `vendor` directory.
+- [Mon Geslani](https://github.com/mongeslani/kohana-less) Author of Kohana LESS compiler module, from which I took the original inspiration.
