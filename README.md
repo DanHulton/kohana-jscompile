@@ -6,6 +6,11 @@
 - **Module URL:** <http://github.com/DanHulton/kohana-jscompile>
 - **Compatible Kohana Version(s):** 3.0.x
 
+## Warning!
+
+This module has been deprecated in favour of [CsCompile](https://github.com/DanHulton/kohana-cscompile), which does everything this module does AND compiles CoffeeScript into JavaScript.  Further updates will be made to CsCompile, but not here.
+
+
 ## Description
 
 Reducing the number of javascript files in your project and keeping them as small as possible can have tremendous benefits with regards to page load speed.  This module will compile and minify javascript files at runtime and cache the results so you don't have to worry about adding this step to your deploy and deploy testing.
