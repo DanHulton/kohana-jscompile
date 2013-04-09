@@ -2,14 +2,9 @@
 
 *Javascript compiler*
 
-- **Module Version:** 1.0.0
+- **Module Version:** 1.1.0
 - **Module URL:** <http://github.com/DanHulton/kohana-jscompile>
-- **Compatible Kohana Version(s):** 3.0.x
-
-## Warning!
-
-This module has been deprecated in favour of [CsCompile](https://github.com/DanHulton/kohana-cscompile), which does everything this module does AND compiles CoffeeScript into JavaScript.  Further updates will be made to CsCompile, but not here.
-
+- **Compatible Kohana Version(s):** 3.3.x
 
 ## Description
 
@@ -54,11 +49,11 @@ If you use head.js or another javascript loader that requires you pass the name 
 		APPPATH . 'js/jquery-autocomplete-plugin.js',
 		APPPATH . 'js/sample.js'
 	), JsCompile::FORMAT_FILENAME);
-	
+
 Which returns:
 
 	/js/db554181f11f9189951cea98f3b4b697-1288017184.js
-	
+
 Instead of the tag:
 
 	<script src="/js/js-cache/db554181f11f9189951cea98f3b4b697-1288017184.js"></script>
