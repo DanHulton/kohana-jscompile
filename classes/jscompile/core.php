@@ -21,7 +21,7 @@ class JsCompile_Core {
 		$compiled = "";
 		
         // Load config file
-        $config = Kohana::config('jscompile');
+        $config = Kohana::$config->load('jscompile');
         
         // If no files to compile, no tag necessary
         if (empty($files)) {
