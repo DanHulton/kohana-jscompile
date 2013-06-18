@@ -4,7 +4,7 @@ $jscompile_cache_path = DOCROOT . Kohana::$config->load('jscompile.path');
 
 if ( ! is_writable($jscompile_cache_path)) {
     throw new Kohana_Exception('Directory :dir must be writable',
-        array(':dir' => Kohana::debug_path($jscompile_cache_path)));
+        array(':dir' => Debug::path($jscompile_cache_path)));
 }
 
 require_once 'vendor/jsmin.php';
